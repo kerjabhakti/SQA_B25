@@ -31,7 +31,7 @@ try:
     )
     print("Testing BERHASIL: Pendaftaran berhasil.")
 except:
-    print("Testing GAGAL: Tidak ada pesan sukses ditemukan.")
+    print("Testing GAGAL: Tidak ada pesan berhasil ditemukan.")
 
 time.sleep(3)
 driver.quit()
