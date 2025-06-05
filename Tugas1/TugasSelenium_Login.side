@@ -1,0 +1,219 @@
+{
+  "id": "3dd956b8-3354-47b3-b31d-71f17a842515",
+  "version": "3.0",
+  "name": "Login",
+  "url": "http://www.google.com",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "2b83888b-eeda-4cbe-ba64-415b20a21ce3",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [
+        "ab30cc49-bb5a-4abc-866c-76dd5263992c"
+      ],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "ab30cc49-bb5a-4abc-866c-76dd5263992c",
+      "name": "Login",
+      "commands": [
+        {
+          "id": "68c5bb9a-c3dc-4a03-8a47-7cb6da50dc41",
+          "command": "open",
+          "target": "https://www.instagram.com/",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "name=username",
+          "value": "ariadiva00@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "37182082-88f8-4f58-8694-a81dc20ef25b",
+          "targets": [
+            [
+              "name=username",
+              "name"
+            ],
+            [
+              "css=[data-focus-visible-added]",
+              "css:data-attr"
+            ],
+            [
+              "css=.focus-visible",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='username'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div/div/label/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=password",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c2f4baa1-5874-40ba-9604-e6ba60d50e4b",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-focus-visible-added]",
+              "css:data-attr"
+            ],
+            [
+              "css=.focus-visible",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[2]/div/label/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=password",
+          "value": "diva26022004",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "1c74ba45-f84c-44dd-b2d4-f40dc585edd2",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-focus-visible-added]",
+              "css:data-attr"
+            ],
+            [
+              "css=.focus-visible",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[2]/div/label/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.\\_acap",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ada61322-a1de-43d9-91e3-c6fa8a016d2e",
+          "targets": [
+            [
+              "css=.\\_acap",
+              "css:finder"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[3]/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Log in')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "mouseOver",
+          "target": "css=.\\_acan",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "2cbc2893-f9a8-4515-8652-6bf09311716c",
+          "targets": [
+            [
+              "css=.\\_acan",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='button' and text()='Save info'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='mount_0_0_pR']/div/div/div[2]/div/div/div/div/div/section/main/div/div/section/div/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Save info')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.xjqpnuy",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "b78224e3-ebba-4270-93f9-6461ffcb0621",
+          "targets": [
+            [
+              "css=.xjqpnuy",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='mount_0_0_pR']/div/div/div[2]/div/div/div/div/div/section/main/div/div/div/div)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "mouseOver",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f988ce9c-e31b-4933-ba35-2b3dd0270134",
+          "targets": [
+            [
+              null,
+              ""
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
