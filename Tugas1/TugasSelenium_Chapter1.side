@@ -1,0 +1,464 @@
+{
+  "id": "0baea3d8-78b7-4d7d-9989-971ed2bfedcf",
+  "version": "3.0",
+  "name": "SyncroApp",
+  "url": "http://www.google.com",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "108781af-e073-4d2f-ba84-3b93c4c1d319",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [
+        "a721a590-4ced-4df2-879a-8bb6afa1bc05"
+      ],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "a721a590-4ced-4df2-879a-8bb6afa1bc05",
+      "name": "Register",
+      "commands": [
+        {
+          "id": "0154c7c1-b79c-48d2-8098-8ccc8a9aa3c5",
+          "command": "open",
+          "target": "https://syncroapp.github.io/signup/",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=username",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "131cb06d-a333-44d0-b1ea-2d2aff0849e0",
+          "targets": [
+            [
+              "id=username",
+              "id"
+            ],
+            [
+              "css=#username",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='username'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='stepone']/div/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=username",
+          "value": "fasya",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "de1d7d9b-c897-4864-8216-1a7156927ef6",
+          "targets": [
+            [
+              "id=username",
+              "id"
+            ],
+            [
+              "css=#username",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='username'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='stepone']/div/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=submitone",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "bd806f6e-4299-4ed0-9fab-3dafd2edd3e7",
+          "targets": [
+            [
+              "id=submitone",
+              "id"
+            ],
+            [
+              "css=#submitone",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='submitone'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='stepone']/div/form/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Next')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=passkey",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "eccd4a95-04af-4e5e-aeec-e1e6ee2477d1",
+          "targets": [
+            [
+              "id=passkey",
+              "id"
+            ],
+            [
+              "css=#passkey",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='passkey'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='steptwo']/div/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=passkey",
+          "value": "Fasya123@",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "7a247bc6-ddc5-4500-998f-2c7929d8f0e6",
+          "targets": [
+            [
+              "id=passkey",
+              "id"
+            ],
+            [
+              "css=#passkey",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='passkey'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='steptwo']/div/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=passkey-confirm",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "0e6c5e81-764b-4170-8839-3c9c231c50ba",
+          "targets": [
+            [
+              "id=passkey-confirm",
+              "id"
+            ],
+            [
+              "css=#passkey-confirm",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='passkey-confirm'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='steptwo']/div/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=passkey-confirm",
+          "value": "Fasya123@",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a69bfcd8-b786-4ebe-8fa6-8c1e304f6ac3",
+          "targets": [
+            [
+              "id=passkey-confirm",
+              "id"
+            ],
+            [
+              "css=#passkey-confirm",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='passkey-confirm'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='steptwo']/div/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=submittwo",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "d88e59a3-bdfa-44fd-9250-2660c410b84b",
+          "targets": [
+            [
+              "id=submittwo",
+              "id"
+            ],
+            [
+              "css=#submittwo",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='submittwo'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='steptwo']/div/form/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Sign up now!')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8f092f73-aec1-426d-9878-14ccf58b40ea",
+      "name": "Login",
+      "commands": [
+        {
+          "id": "ce1ee38b-fbd1-49e1-ae4e-1e7d60315fee",
+          "command": "open",
+          "target": "https://syncroapp.github.io/login/",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=username",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5b1b003f-aa98-47a5-a2be-c55b909bb846",
+          "targets": [
+            [
+              "id=username",
+              "id"
+            ],
+            [
+              "css=#username",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='username'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='stepone']/div/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=username",
+          "value": "fasya",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5db1ed08-7158-48ed-818c-6cb5c92d172a",
+          "targets": [
+            [
+              "id=username",
+              "id"
+            ],
+            [
+              "css=#username",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='username'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='stepone']/div/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=submitone",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "604f74fe-f0ce-4509-bcce-a4efd3a45404",
+          "targets": [
+            [
+              "id=submitone",
+              "id"
+            ],
+            [
+              "css=#submitone",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='submitone'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='stepone']/div/form/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Next')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=passkey",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "aaafc1a9-3d37-4964-b4fe-e81223906b51",
+          "targets": [
+            [
+              "id=passkey",
+              "id"
+            ],
+            [
+              "css=#passkey",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='passkey'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='steptwo']/div/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=passkey",
+          "value": "Fasya123@",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "1dcfcbdf-a513-4a56-8109-7652c683dbf1",
+          "targets": [
+            [
+              "id=passkey",
+              "id"
+            ],
+            [
+              "css=#passkey",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='passkey'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='steptwo']/div/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=submittwo",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "7b17c583-c044-4fa1-9501-23e0553f4fe4",
+          "targets": [
+            [
+              "id=submittwo",
+              "id"
+            ],
+            [
+              "css=#submittwo",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='submittwo'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='steptwo']/div/form/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Log In')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,39.60711669921875)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "1d438a38-3254-480c-b70b-e8c3ae6a51fb",
+          "targets": [
+            [
+              "window.scrollTo(0,39.60711669921875)",
+              ""
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
