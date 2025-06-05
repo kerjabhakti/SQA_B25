@@ -1,0 +1,685 @@
+{
+  "id": "ed96b175-e88a-4a41-8746-2cae57e3987d",
+  "version": "3.0",
+  "name": "Loka Space",
+  "url": "http://www.google.com",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "719ab491-ed68-40b8-b2b5-ef25ad7a3c33",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [
+        "07fb43d1-a49f-4b6d-9a49-205597fb3a72"
+      ],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "07fb43d1-a49f-4b6d-9a49-205597fb3a72",
+      "name": "Landing Page",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://proyek-three.github.io/fe-promosi-umkm",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "73f3d88b-6f08-4fb5-ab2c-58cc5fb39a4e",
+          "targets": [
+            [
+              "id=registerButton",
+              "id"
+            ],
+            [
+              "css=#registerButton",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='registerButton'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Register')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "57bb4495-f965-41b8-a2f0-3f7f76736d97",
+      "name": "Register",
+      "commands": [
+        {
+          "id": "f2dd2294-a279-4443-894c-e29757eff51b",
+          "command": "open",
+          "target": "https://proyek-three.github.io/fe-promosi-umkm/auth/register.html",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=name",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "30cbe737-5f4e-4d00-9732-860c8c39eba1",
+          "targets": [
+            [
+              "id=name",
+              "id"
+            ],
+            [
+              "name=name",
+              "name"
+            ],
+            [
+              "css=#name",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='name'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=name",
+          "value": "Deriko",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "55c7bc6e-8f62-4733-a079-ad16aa4ed875",
+          "targets": [
+            [
+              "id=name",
+              "id"
+            ],
+            [
+              "name=name",
+              "name"
+            ],
+            [
+              "css=#name",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='name'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=phone_number",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "663e91fd-e62a-44c0-abd0-cd89bf2bfd59",
+          "targets": [
+            [
+              "id=phone_number",
+              "id"
+            ],
+            [
+              "name=phone_number",
+              "name"
+            ],
+            [
+              "css=#phone_number",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='phone_number'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=phone_number",
+          "value": "0823548218",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "1b401927-8701-4249-953d-e29d75a70f89",
+          "targets": [
+            [
+              "id=phone_number",
+              "id"
+            ],
+            [
+              "name=phone_number",
+              "name"
+            ],
+            [
+              "css=#phone_number",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='phone_number'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=email",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "2e24d26f-92f2-47cc-a4e2-c02a4f871f1a",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[3]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=email",
+          "value": "agungd@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "8427ffa5-10fb-4487-a3cb-e0e44d223c48",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[3]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=username",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "dace72ae-7d47-4d5a-9f75-a0239236c507",
+          "targets": [
+            [
+              "id=username",
+              "id"
+            ],
+            [
+              "name=username",
+              "name"
+            ],
+            [
+              "css=#username",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='username'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[4]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=username",
+          "value": "agung321",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c6c9a7ec-f695-439e-8847-8029070dd2e7",
+          "targets": [
+            [
+              "id=username",
+              "id"
+            ],
+            [
+              "name=username",
+              "name"
+            ],
+            [
+              "css=#username",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='username'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[4]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=password",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "fe963fc1-f390-4460-83d0-73459cbc7f8b",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=div:nth-child(7) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[5]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=password",
+          "value": "agung321",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e825af56-ba3e-4d81-a67b-a42c42afe6e2",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=div:nth-child(7) > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[5]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=store_name",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a015ac30-8680-41c6-92b9-0bedda9831b2",
+          "targets": [
+            [
+              "id=store_name",
+              "id"
+            ],
+            [
+              "name=store_name",
+              "name"
+            ],
+            [
+              "css=#store_name",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='store_name'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[6]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=store_name",
+          "value": "Betta Store",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "124b621e-af95-45e0-829f-40337280a938",
+          "targets": [
+            [
+              "id=store_name",
+              "id"
+            ],
+            [
+              "name=store_name",
+              "name"
+            ],
+            [
+              "css=#store_name",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='store_name'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[6]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=address",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "888031d3-812d-4145-bb29-77bdc6dc784f",
+          "targets": [
+            [
+              "id=address",
+              "id"
+            ],
+            [
+              "name=address",
+              "name"
+            ],
+            [
+              "css=#address",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='address'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[7]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=address",
+          "value": "Jl. Kencana",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "8234bbac-0708-4100-aea5-98164eaf576c",
+          "targets": [
+            [
+              "id=address",
+              "id"
+            ],
+            [
+              "name=address",
+              "name"
+            ],
+            [
+              "css=#address",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='address'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[7]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=registerButton",
+          "value": "",
+          "id": "da864bad-2607-45c4-9b1e-a54c6e80c408",
+          "fallbackTargets": [
+            [
+              "id=registerButton",
+              "id"
+            ],
+            [
+              "css=#registerButton",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='registerButton'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Register')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32b2f28a-dce2-4421-97f5-70f541e3f173",
+      "name": "Login",
+      "commands": [
+        {
+          "id": "fde7f779-d447-4c9d-a69b-373e3c610b58",
+          "command": "open",
+          "target": "https://proyek-three.github.io/fe-promosi-umkm/auth/login.html",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=username",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "19f2a9fb-3c39-4ddc-888d-2ccdc1861e55",
+          "targets": [
+            [
+              "name=username",
+              "name"
+            ],
+            [
+              "css=div:nth-child(2) > .relative > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='username'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div[2]/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=username",
+          "value": "reza",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "08225a72-0303-40b7-8205-3f643412d1d1",
+          "targets": [
+            [
+              "name=username",
+              "name"
+            ],
+            [
+              "css=div:nth-child(2) > .relative > .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='username'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div[2]/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=password",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "69576774-df89-47b1-83e4-6a55993f3c09",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=.mt-6 .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div[3]/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=password",
+          "value": "admin12345",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "d1fedaa7-2c18-4f30-b81e-ca4c5903e827",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=.mt-6 .w-full",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div[3]/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=loginButton",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "227396a8-a30c-4616-b8e9-e8c9d00890b2",
+          "targets": [
+            [
+              "id=loginButton",
+              "id"
+            ],
+            [
+              "css=#loginButton",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='loginButton'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div[4]/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Login')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
