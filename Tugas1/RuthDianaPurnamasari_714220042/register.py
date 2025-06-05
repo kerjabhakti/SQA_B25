@@ -27,7 +27,7 @@ register_button.click()
 try:
     # Tunggu munculnya pesan sukses (ubah sesuai selector pesan sukses di web)
     success_message = WebDriverWait(driver, 30).until(
-        EC.presence_of_element_located((By.CLASS_NAME, "swal2-popup"))
+        EC.presence_of_element_located((By.CLASS_NAME, "swal2-container"))
     )
     print("Testing BERHASIL: Pendaftaran berhasil.")
 except:

@@ -26,8 +26,8 @@ try:
     login_button.click()
 
     print("Tunggu SweetAlert muncul...")
-    sweetalert = WebDriverWait(driver, 10).until(
-        EC.visibility_of_element_located((By.CLASS_NAME, "swal2-popup"))
+    sweetalert = WebDriverWait(driver, 30).until(
+        EC.visibility_of_element_located((By.CLASS_NAME, "swal2-container"))
     )
 
     alert_text = sweetalert.text
