@@ -1,0 +1,310 @@
+{
+  "id": "c4d5865e-c30c-43d3-b144-81bd86e1efff",
+  "version": "3.0",
+  "name": "Batik",
+  "url": "http://www.google.com",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "cf2b320c-217f-4fc4-b285-29a79990321e",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "de0dfa85-adb6-4ce1-811a-87cee783a476",
+      "name": "Login",
+      "commands": [
+        {
+          "id": "21c7072b-1379-43e2-8999-2e4fdfbab477",
+          "command": "open",
+          "target": "http://localhost/penjualan_batik/Client/Log/Login/index.php",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=form3Example3",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c237ec9e-fba4-4331-9433-8c1caabfd19b",
+          "targets": [
+            [
+              "id=form3Example3",
+              "id"
+            ],
+            [
+              "name=username",
+              "name"
+            ],
+            [
+              "css=#form3Example3",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='form3Example3'])[1]",
+              "xpath:attributes"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=form3Example3",
+          "value": "AdityaF",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6e12c73a-8982-43bf-9d17-1d01777aede2",
+          "targets": [
+            [
+              "id=form3Example3",
+              "id"
+            ],
+            [
+              "name=username",
+              "name"
+            ],
+            [
+              "css=#form3Example3",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='form3Example3'])[1]",
+              "xpath:attributes"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=form3Example4",
+          "value": "123456",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "d030a17a-20b1-4d9a-a881-718d49880b71",
+          "targets": [
+            [
+              "id=form3Example4",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#form3Example4",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='form3Example4'])[1]",
+              "xpath:attributes"
+            ]
+          ]
+        },
+        {
+          "command": "sendKeys",
+          "target": "id=form3Example4",
+          "value": "${KEY_ENTER}",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c490ff86-377f-47f6-a12c-7610b091f69a",
+          "targets": [
+            [
+              "id=form3Example4",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#form3Example4",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='form3Example4'])[1]",
+              "xpath:attributes"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aa797b2a-f1fc-46e3-932b-898fd20acbc6",
+      "name": "Registrasi",
+      "commands": [
+        {
+          "id": "e20838b0-9f74-45b3-88da-d6eab74f4db9",
+          "command": "open",
+          "target": "http://localhost/penjualan_batik/Client/Log/Register/register.php",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "",
+          "value": "",
+          "id": "f7bfa3d9-52b8-4de2-b6a6-7ad3e87036f6"
+        },
+        {
+          "command": "click",
+          "target": "id=form3Example3",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e9dbed9b-54d5-45fe-accb-810cd69a922f",
+          "targets": [
+            [
+              "id=form3Example3",
+              "id"
+            ],
+            [
+              "name=username",
+              "name"
+            ],
+            [
+              "css=#form3Example3",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='form3Example3'])[1]",
+              "xpath:attributes"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=form3Example3",
+          "value": "AdityaF",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "77ddb86b-303e-44b0-873a-ca47111832e2",
+          "targets": [
+            [
+              "id=form3Example3",
+              "id"
+            ],
+            [
+              "name=username",
+              "name"
+            ],
+            [
+              "css=#form3Example3",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='form3Example3'])[1]",
+              "xpath:attributes"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=form3Example4",
+          "value": "123456",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "7b528d38-751e-40dd-b9b1-7cd83911ba38",
+          "targets": [
+            [
+              "id=form3Example4",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=.form-outline:nth-child(3) > #form3Example4",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='form3Example4'])[1]",
+              "xpath:attributes"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=confirm",
+          "value": "123456",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "965e0f92-c0b2-4b77-b8e7-b4fd18ac5bfb",
+          "targets": [
+            [
+              "name=confirm",
+              "name"
+            ],
+            [
+              "css=.form-outline:nth-child(4) > #form3Example4",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='form3Example4'])[2]",
+              "xpath:attributes"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=[data-mdb-button-init]",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "caf5ffab-421c-4b8f-ada0-0ac7609dbad9",
+          "targets": [
+            [
+              "css=[data-mdb-button-init]",
+              "css:data-attr"
+            ],
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Register'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//button[contains(.,'Register')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de569f54-116c-40ee-9b47-29d8edfc6f38",
+      "name": "Landing page",
+      "commands": [
+        {
+          "id": "6e93aca7-b999-4b38-9119-52d6b9ee1d97",
+          "command": "open",
+          "target": "http://localhost/penjualan_batik/Client/index.php",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
