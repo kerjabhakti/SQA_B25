@@ -1,0 +1,604 @@
+{
+  "id": "ddd40767-9412-4ba3-a73f-2d60dd9bc610",
+  "version": "3.0",
+  "name": "",
+  "url": "http://www.google.com",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "c27a8253-dcf9-45cb-b93e-44462df80867",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "06f827ca-8ca7-4340-be33-35e504285c41",
+      "name": "Login",
+      "commands": [
+        {
+          "id": "b9a208a0-2f29-4633-89fd-a39bb7bebe65",
+          "command": "open",
+          "target": "https://www.instagram.com/",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "name=username",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e7ca7b78-5697-4fcf-9562-582bbf024e12",
+          "targets": [
+            [
+              "name=username",
+              "name"
+            ],
+            [
+              "css=[data-focus-visible-added]",
+              "css:data-attr"
+            ],
+            [
+              "css=.focus-visible",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='username'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div/div/label/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=username",
+          "value": "deviiously",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "20469847-c656-40fd-a224-34f0a8a85fd4",
+          "targets": [
+            [
+              "name=username",
+              "name"
+            ],
+            [
+              "css=[data-focus-visible-added]",
+              "css:data-attr"
+            ],
+            [
+              "css=.focus-visible",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='username'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div/div/label/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=password",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "2a308c1d-9daf-4860-80d5-260289ad0ab3",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-focus-visible-added]",
+              "css:data-attr"
+            ],
+            [
+              "css=.focus-visible",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[2]/div/label/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=password",
+          "value": "deviwlndr",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "cf974f81-618d-4d57-b9d1-c1fe539bf22e",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-focus-visible-added]",
+              "css:data-attr"
+            ],
+            [
+              "css=.focus-visible",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[2]/div/label/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.\\_aswr > .x9f619",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "eb9cddfb-f886-47f1-8999-a74f6c2db7f8",
+          "targets": [
+            [
+              "css=.\\_aswr > .x9f619",
+              "css:finder"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[3]/button/div)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "mouseOver",
+          "target": "css=.\\_aswr > .x9f619",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "8e8c8782-3e1c-4ada-837b-0d7634b22c19",
+          "targets": [
+            [
+              "css=.\\_aswr > .x9f619",
+              "css:finder"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[3]/button/div)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.\\_acan",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "683ce38b-f5a9-4341-ab46-63ec52ef291d",
+          "targets": [
+            [
+              "css=.\\_acan",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='button' and text()='Save info'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='mount_0_0_Gu']/div/div/div[2]/div/div/div/div/div/section/main/div/div/section/div/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Save info')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=username",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "d058d0f1-4052-4f03-bde6-eb35212694fc",
+          "targets": [
+            [
+              "name=username",
+              "name"
+            ],
+            [
+              "css=[data-focus-visible-added]",
+              "css:data-attr"
+            ],
+            [
+              "css=.focus-visible",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='username'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div/div/label/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=username",
+          "value": "deviwlndrrr",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f5e55b51-50d0-4f2a-ad5d-96bb2150773d",
+          "targets": [
+            [
+              "name=username",
+              "name"
+            ],
+            [
+              "css=[data-focus-visible-added]",
+              "css:data-attr"
+            ],
+            [
+              "css=.focus-visible",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='username'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div/div/label/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=password",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ea214da8-13e6-4138-8f7c-647ff139c6c2",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-focus-visible-added]",
+              "css:data-attr"
+            ],
+            [
+              "css=.focus-visible",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[2]/div/label/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=password",
+          "value": "deviwulan",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a1863951-8da6-4c13-a365-ee75815781af",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-focus-visible-added]",
+              "css:data-attr"
+            ],
+            [
+              "css=.focus-visible",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[2]/div/label/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.\\_aswr > .x9f619",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "75d362fd-dc3d-4bb7-a093-e60b6e81bdba",
+          "targets": [
+            [
+              "css=.\\_aswr > .x9f619",
+              "css:finder"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[3]/button/div)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.\\_aswv",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "93fac484-f262-4da4-bb8a-f6d94f66c122",
+          "targets": [
+            [
+              "css=.\\_aswv",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='button' and text()='Show'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[2]/div/div/div/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Show')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.\\_aswr",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5e5d7d3a-e0dc-407c-8d21-d6548c94e0e2",
+          "targets": [
+            [
+              "css=.\\_aswr",
+              "css:finder"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[3]/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Log in')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=password",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "430c5079-016f-4876-b12c-13351192bc78",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-focus-visible-added]",
+              "css:data-attr"
+            ],
+            [
+              "css=.focus-visible",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[2]/div/label/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=password",
+          "value": "deviwlndr",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "777e1945-e8b9-4b65-8899-0d2444b86136",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-focus-visible-added]",
+              "css:data-attr"
+            ],
+            [
+              "css=.focus-visible",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[2]/div/label/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.\\_aswr > .x9f619",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6fc49f42-c6f8-47f8-a33c-aed275883c83",
+          "targets": [
+            [
+              "css=.\\_aswr > .x9f619",
+              "css:finder"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[3]/button/div)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "mouseOver",
+          "target": "css=.\\_aswr > .x9f619",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "af0543bc-755e-4a7d-b0c0-e36aaf2e039d",
+          "targets": [
+            [
+              "css=.\\_aswr > .x9f619",
+              "css:finder"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[3]/button/div)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=password",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a93d19fc-cd99-48e0-a6c2-5119174b199f",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-focus-visible-added]",
+              "css:data-attr"
+            ],
+            [
+              "css=.focus-visible",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[2]/div/label/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=password",
+          "value": "deviwlndr12",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "3284fc60-1a2f-46e3-bff6-04c820a5086e",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-focus-visible-added]",
+              "css:data-attr"
+            ],
+            [
+              "css=.focus-visible",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[2]/div/label/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.\\_aswr > .x9f619",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "42b0d583-65b9-4f86-afd3-c19ab1f04047",
+          "targets": [
+            [
+              "css=.\\_aswr > .x9f619",
+              "css:finder"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/div[3]/button/div)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
