@@ -101,7 +101,7 @@
         {
           "command": "type",
           "target": "id=name",
-          "value": "Deriko",
+          "value": "Deriko Aja",
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
           "winHandleId": "root",
@@ -225,7 +225,7 @@
         {
           "command": "type",
           "target": "id=email",
-          "value": "agungd@gmail.com",
+          "value": "agung77@gmail.com",
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
           "winHandleId": "root",
@@ -287,7 +287,7 @@
         {
           "command": "type",
           "target": "id=username",
-          "value": "agung321",
+          "value": "agung388",
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
           "winHandleId": "root",
